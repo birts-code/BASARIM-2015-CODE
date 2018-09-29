@@ -1,0 +1,34 @@
+digraph {
+    node[shape="box", style="rounded"]
+       start; end;
+    node[shape="rectangle", style=""]
+       regular_execution; generate_graph; partition_graph; generate_machine; optimized_execution;
+    node[shape="parallelogram", style=""]
+       comm_matrix; comm_graph; partitioned_graph; machine_file; model;
+ 
+    start -> regular_execution;
+    model -> regular_execution;
+    regular_execution -> comm_matrix;
+    comm_matrix -> generate_graph;
+    generate_graph -> comm_graph;
+    comm_graph -> partition_graph;
+    partition_graph -> partitioned_graph;
+    partitioned_graph -> generate_machine;
+    generate_machine -> machine_file;
+    machine_file -> optimized_execution;
+    model -> optimized_execution;
+    optimized_execution -> end;
+
+    start[label="Start"]
+    end[label="End"]
+    model[label="Neuron Model"]
+    regular_execution[label="Regular Execution\n(NEURON)"]
+    comm_matrix[label="Communication Matrix"]
+    generate_graph[label="Generate Graph"]
+    comm_graph[label="Communication Graph"]
+    partition_graph[label="Partition Graph\n(METIS)"]
+    partitioned_graph[label="Partitioned Graph"]
+    generate_machine[label="Generate Machine File"]
+    machine_file[label="Machine File"]
+    optimized_execution[label="Optimized Execution\n(NEURON)"]
+}

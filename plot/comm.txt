@@ -1,0 +1,400 @@
+(0) number of ints : 2502
+(0) number of spks : 58
+(0) time of ints   : 1.468524
+(0) time of spks   : 0.929738
+(0) total time     : 8.551176
+(10) number of ints : 2502
+(10) number of spks : 68
+(10) time of ints   : 1.344376
+(10) time of spks   : 0.935873
+(10) total time     : 8.538942
+(11) number of ints : 2502
+(11) number of spks : 71
+(11) time of ints   : 1.311699
+(11) time of spks   : 0.989110
+(11) total time     : 8.544221
+(12) number of ints : 2502
+(12) number of spks : 77
+(12) time of ints   : 1.401959
+(12) time of spks   : 0.957032
+(12) total time     : 8.539355
+(13) number of ints : 2502
+(13) number of spks : 86
+(13) time of ints   : 1.010472
+(13) time of spks   : 0.987123
+(13) total time     : 8.538221
+(14) number of ints : 2502
+(14) number of spks : 87
+(14) time of ints   : 1.426968
+(14) time of spks   : 0.918779
+(14) total time     : 8.525500
+(15) number of ints : 2502
+(15) number of spks : 73
+(15) time of ints   : 1.394914
+(15) time of spks   : 0.982580
+(15) total time     : 8.551356
+(16) number of ints : 2502
+(16) number of spks : 71
+(16) time of ints   : 1.210734
+(16) time of spks   : 0.958360
+(16) total time     : 8.545308
+(17) number of ints : 2502
+(17) number of spks : 77
+(17) time of ints   : 1.398357
+(17) time of spks   : 0.932611
+(17) total time     : 8.537787
+(18) number of ints : 2502
+(18) number of spks : 47
+(18) time of ints   : 2.143311
+(18) time of spks   : 0.924217
+(18) total time     : 8.535304
+(19) number of ints : 2502
+(19) number of spks : 72
+(19) time of ints   : 1.418762
+(19) time of spks   : 0.928029
+(19) total time     : 8.733416
+(1) number of ints : 2502
+(1) number of spks : 71
+(1) time of ints   : 1.456056
+(1) time of spks   : 0.907332
+(1) total time     : 8.547808
+(20) number of ints : 2502
+(20) number of spks : 69
+(20) time of ints   : 1.495066
+(20) time of spks   : 0.852601
+(20) total time     : 8.549422
+(21) number of ints : 2502
+(21) number of spks : 59
+(21) time of ints   : 1.466501
+(21) time of spks   : 0.899670
+(21) total time     : 8.547674
+(22) number of ints : 2502
+(22) number of spks : 68
+(22) time of ints   : 1.461792
+(22) time of spks   : 0.891484
+(22) total time     : 8.542019
+(23) number of ints : 2502
+(23) number of spks : 72
+(23) time of ints   : 1.442624
+(23) time of spks   : 0.890411
+(23) total time     : 8.547206
+(24) number of ints : 2502
+(24) number of spks : 73
+(24) time of ints   : 1.458196
+(24) time of spks   : 0.902745
+(24) total time     : 8.541872
+(25) number of ints : 2502
+(25) number of spks : 140
+(25) time of ints   : 1.596668
+(25) time of spks   : 0.912089
+(25) total time     : 8.543157
+(26) number of ints : 2502
+(26) number of spks : 102
+(26) time of ints   : 1.643182
+(26) time of spks   : 0.908139
+(26) total time     : 8.535652
+(27) number of ints : 2502
+(27) number of spks : 91
+(27) time of ints   : 1.510960
+(27) time of spks   : 0.913682
+(27) total time     : 8.546573
+(28) number of ints : 2502
+(28) number of spks : 87
+(28) time of ints   : 1.627030
+(28) time of spks   : 0.898834
+(28) total time     : 8.471589
+(29) number of ints : 2502
+(29) number of spks : 75
+(29) time of ints   : 1.460892
+(29) time of spks   : 0.924376
+(29) total time     : 8.543386
+(2) number of ints : 2502
+(2) number of spks : 74
+(2) time of ints   : 1.403437
+(2) time of spks   : 0.927380
+(2) total time     : 8.542308
+(30) number of ints : 2502
+(30) number of spks : 79
+(30) time of ints   : 1.666953
+(30) time of spks   : 0.812545
+(30) total time     : 8.539641
+(31) number of ints : 2502
+(31) number of spks : 78
+(31) time of ints   : 1.650119
+(31) time of spks   : 0.890542
+(31) total time     : 8.543687
+(32) number of ints : 2502
+(32) number of spks : 74
+(32) time of ints   : 1.653663
+(32) time of spks   : 0.893390
+(32) total time     : 8.538342
+(33) number of ints : 2502
+(33) number of spks : 74
+(33) time of ints   : 1.724519
+(33) time of spks   : 0.833735
+(33) total time     : 8.537142
+(34) number of ints : 2502
+(34) number of spks : 89
+(34) time of ints   : 1.698542
+(34) time of spks   : 0.834042
+(34) total time     : 8.523535
+(35) number of ints : 2502
+(35) number of spks : 64
+(35) time of ints   : 1.777754
+(35) time of spks   : 0.826405
+(35) total time     : 8.550271
+(36) number of ints : 2502
+(36) number of spks : 69
+(36) time of ints   : 1.748389
+(36) time of spks   : 0.779268
+(36) total time     : 8.542703
+(37) number of ints : 2502
+(37) number of spks : 90
+(37) time of ints   : 1.684870
+(37) time of spks   : 0.816707
+(37) total time     : 8.538318
+(38) number of ints : 2502
+(38) number of spks : 55
+(38) time of ints   : 2.416912
+(38) time of spks   : 0.803990
+(38) total time     : 8.536075
+(39) number of ints : 2502
+(39) number of spks : 83
+(39) time of ints   : 1.716099
+(39) time of spks   : 0.803469
+(39) total time     : 8.733175
+(3) number of ints : 2502
+(3) number of spks : 62
+(3) time of ints   : 1.260931
+(3) time of spks   : 0.940427
+(3) total time     : 8.548645
+(40) number of ints : 2502
+(40) number of spks : 77
+(40) time of ints   : 1.650881
+(40) time of spks   : 0.808561
+(40) total time     : 8.548387
+(41) number of ints : 2502
+(41) number of spks : 85
+(41) time of ints   : 1.548108
+(41) time of spks   : 0.821613
+(41) total time     : 8.546915
+(42) number of ints : 2502
+(42) number of spks : 77
+(42) time of ints   : 1.632964
+(42) time of spks   : 0.809647
+(42) total time     : 8.537854
+(43) number of ints : 2502
+(43) number of spks : 92
+(43) time of ints   : 1.674415
+(43) time of spks   : 0.829639
+(43) total time     : 8.543878
+(44) number of ints : 2502
+(44) number of spks : 122
+(44) time of ints   : 1.667673
+(44) time of spks   : 0.793902
+(44) total time     : 8.537734
+(45) number of ints : 2502
+(45) number of spks : 86
+(45) time of ints   : 1.734172
+(45) time of spks   : 0.819552
+(45) total time     : 8.539086
+(46) number of ints : 2502
+(46) number of spks : 85
+(46) time of ints   : 1.960308
+(46) time of spks   : 0.677190
+(46) total time     : 8.534578
+(47) number of ints : 2502
+(47) number of spks : 82
+(47) time of ints   : 1.829656
+(47) time of spks   : 0.780115
+(47) total time     : 8.545019
+(48) number of ints : 2502
+(48) number of spks : 84
+(48) time of ints   : 1.807147
+(48) time of spks   : 0.773255
+(48) total time     : 8.490229
+(49) number of ints : 2502
+(49) number of spks : 74
+(49) time of ints   : 1.888055
+(49) time of spks   : 0.753713
+(49) total time     : 8.539715
+(4) number of ints : 2502
+(4) number of spks : 96
+(4) time of ints   : 1.415887
+(4) time of spks   : 0.914510
+(4) total time     : 8.543466
+(50) number of ints : 2502
+(50) number of spks : 61
+(50) time of ints   : 1.904365
+(50) time of spks   : 0.772153
+(50) total time     : 8.535238
+(51) number of ints : 2502
+(51) number of spks : 76
+(51) time of ints   : 1.742125
+(51) time of spks   : 0.809336
+(51) total time     : 8.541069
+(52) number of ints : 2502
+(52) number of spks : 59
+(52) time of ints   : 1.847000
+(52) time of spks   : 0.789472
+(52) total time     : 8.538342
+(53) number of ints : 2502
+(53) number of spks : 60
+(53) time of ints   : 1.818051
+(53) time of spks   : 0.833517
+(53) total time     : 8.538165
+(54) number of ints : 2502
+(54) number of spks : 62
+(54) time of ints   : 1.866230
+(54) time of spks   : 0.797322
+(54) total time     : 8.524162
+(55) number of ints : 2502
+(55) number of spks : 73
+(55) time of ints   : 1.822143
+(55) time of spks   : 0.818654
+(55) total time     : 8.546705
+(56) number of ints : 2502
+(56) number of spks : 71
+(56) time of ints   : 1.821305
+(56) time of spks   : 0.819038
+(56) total time     : 8.540856
+(57) number of ints : 2502
+(57) number of spks : 70
+(57) time of ints   : 1.739416
+(57) time of spks   : 0.805508
+(57) total time     : 8.538204
+(58) number of ints : 2502
+(58) number of spks : 73
+(58) time of ints   : 2.518397
+(58) time of spks   : 0.814426
+(58) total time     : 8.535557
+(59) number of ints : 2502
+(59) number of spks : 68
+(59) time of ints   : 1.812499
+(59) time of spks   : 0.840090
+(59) total time     : 8.732304
+(5) number of ints : 2502
+(5) number of spks : 87
+(5) time of ints   : 1.386219
+(5) time of spks   : 0.951447
+(5) total time     : 8.543315
+(60) number of ints : 2502
+(60) number of spks : 66
+(60) time of ints   : 1.808065
+(60) time of spks   : 0.840419
+(60) total time     : 8.549910
+(61) number of ints : 2502
+(61) number of spks : 95
+(61) time of ints   : 1.709585
+(61) time of spks   : 0.863939
+(61) total time     : 8.543780
+(62) number of ints : 2502
+(62) number of spks : 84
+(62) time of ints   : 1.814220
+(62) time of spks   : 0.791232
+(62) total time     : 8.536213
+(63) number of ints : 2502
+(63) number of spks : 80
+(63) time of ints   : 1.767170
+(63) time of spks   : 0.875228
+(63) total time     : 8.546469
+(64) number of ints : 2502
+(64) number of spks : 73
+(64) time of ints   : 1.721291
+(64) time of spks   : 0.862942
+(64) total time     : 8.537881
+(65) number of ints : 2502
+(65) number of spks : 80
+(65) time of ints   : 1.725920
+(65) time of spks   : 0.859592
+(65) total time     : 8.537727
+(66) number of ints : 2502
+(66) number of spks : 67
+(66) time of ints   : 1.768148
+(66) time of spks   : 0.875725
+(66) total time     : 8.536544
+(67) number of ints : 2502
+(67) number of spks : 85
+(67) time of ints   : 1.729651
+(67) time of spks   : 0.903677
+(67) total time     : 8.544790
+(68) number of ints : 2502
+(68) number of spks : 72
+(68) time of ints   : 1.800807
+(68) time of spks   : 0.850754
+(68) total time     : 8.476700
+(69) number of ints : 2502
+(69) number of spks : 70
+(69) time of ints   : 1.751420
+(69) time of spks   : 0.907334
+(69) total time     : 8.540261
+(6) number of ints : 2502
+(6) number of spks : 77
+(6) time of ints   : 1.429528
+(6) time of spks   : 0.911915
+(6) total time     : 8.537374
+(70) number of ints : 2502
+(70) number of spks : 73
+(70) time of ints   : 1.799026
+(70) time of spks   : 0.886486
+(70) total time     : 8.533558
+(71) number of ints : 2502
+(71) number of spks : 80
+(71) time of ints   : 1.712486
+(71) time of spks   : 0.904713
+(71) total time     : 8.539634
+(72) number of ints : 2502
+(72) number of spks : 74
+(72) time of ints   : 1.755348
+(72) time of spks   : 0.921639
+(72) total time     : 8.537856
+(73) number of ints : 2502
+(73) number of spks : 95
+(73) time of ints   : 1.694541
+(73) time of spks   : 0.925336
+(73) total time     : 8.535163
+(74) number of ints : 2502
+(74) number of spks : 106
+(74) time of ints   : 1.662028
+(74) time of spks   : 0.898646
+(74) total time     : 8.524068
+(75) number of ints : 2502
+(75) number of spks : 143
+(75) time of ints   : 1.690881
+(75) time of spks   : 0.934153
+(75) total time     : 8.544421
+(76) number of ints : 2502
+(76) number of spks : 107
+(76) time of ints   : 1.700764
+(76) time of spks   : 0.911974
+(76) total time     : 8.538537
+(77) number of ints : 2502
+(77) number of spks : 97
+(77) time of ints   : 1.698086
+(77) time of spks   : 0.946286
+(77) total time     : 8.537624
+(78) number of ints : 2502
+(78) number of spks : 80
+(78) time of ints   : 2.480585
+(78) time of spks   : 0.851947
+(78) total time     : 8.534891
+(79) number of ints : 2502
+(79) number of spks : 74
+(79) time of ints   : 1.716278
+(79) time of spks   : 0.908503
+(79) total time     : 8.728785
+(7) number of ints : 2502
+(7) number of spks : 54
+(7) time of ints   : 1.397067
+(7) time of spks   : 0.958556
+(7) total time     : 8.546204
+(8) number of ints : 2502
+(8) number of spks : 55
+(8) time of ints   : 1.445265
+(8) time of spks   : 0.933159
+(8) total time     : 8.474937
+(9) number of ints : 2502
+(9) number of spks : 75
+(9) time of ints   : 1.389254
+(9) time of spks   : 0.934010
+(9) total time     : 8.544643

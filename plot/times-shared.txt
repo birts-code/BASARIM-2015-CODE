@@ -1,0 +1,48 @@
+starting dorun 1
+completed dorun 1
+
+real    76m8.454s
+user    75m56.957s
+sys     0m0.188s
+starting dorun 2
+completed dorun 2
+
+real    38m49.087s
+user    77m19.610s
+sys     0m8.053s
+starting dorun 4
+completed dorun 4
+
+real    20m18.341s
+user    80m50.243s
+sys     0m11.573s
+starting dorun 8
+completed dorun 8
+
+real    11m49.124s
+user    94m6.989s
+sys     0m11.957s
+starting dorun 16
+completed dorun 16
+
+real    9m17.353s
+user    110m8.785s
+sys     1m0.532s
+starting dorun 32
+completed dorun 32
+
+real    4m52.846s
+user    57m41.856s
+sys     0m42.611s
+starting dorun 64
+completed dorun 64
+
+real    4m10.203s
+user    49m13.741s
+sys     0m40.431s
+starting dorun 128
+completed dorun 128
+
+real    4m7.709s
+user    48m24.630s
+sys     0m59.288s

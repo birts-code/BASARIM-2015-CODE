@@ -1,0 +1,66 @@
+(gdb) bt
+#0  nrnmpi_spike_exchange ()
+    at /home/gokce/Desktop/brain/neuron/nrn/src/nrnmpi/mpispike.c:94
+#1  0x00007ffff793eda5 in nrn_spike_exchange ()
+    at /home/gokce/Desktop/brain/neuron/nrn/src/nrniv/netpar.cpp:554
+#2  0x00007ffff793f79f in NetParEvent::deliver (this=0x17e26f8, 
+    tt=0.59999999999999998, nc=0xae84a0, nt=0x89e7c0)
+    at /home/gokce/Desktop/brain/neuron/nrn/src/nrniv/netpar.cpp:270
+#3  0x00007ffff790ce14 in NetCvode::deliver_event (this=this@entry=0xae84a0, 
+    til=til@entry=0.6000000000000002, nt=nt@entry=0x89e7c0)
+    at /home/gokce/Desktop/brain/neuron/nrn/src/nrniv/../nrncvode/netcvode.cpp:2159
+#4  0x00007ffff790e0c9 in NetCvode::deliver_events (this=0xae84a0, 
+    til=til@entry=0.6000000000000002, nt=nt@entry=0x89e7c0)
+    at /home/gokce/Desktop/brain/neuron/nrn/src/nrniv/../nrncvode/netcvode.cpp:2866
+#5  0x00007ffff78ffd9d in nrn_deliver_events (nt=nt@entry=0x89e7c0)
+    at /home/gokce/Desktop/brain/neuron/nrn/src/nrniv/../nrncvode/cvodestb.cpp:54
+#6  0x00007ffff7ba3bfe in nrn_fixed_step_lastpart (nth=nth@entry=0x89e7c0)
+    at /home/gokce/Desktop/brain/neuron/nrn/src/nrnoc/fadvance.c:459
+#7  0x00007ffff7ba3cb0 in nrn_fixed_step_thread (nth=nth@entry=0x89e7c0)
+    at /home/gokce/Desktop/brain/neuron/nrn/src/nrnoc/fadvance.c:428
+#8  0x00007ffff7ba3cfd in nrn_fixed_step_group_thread (nth=0x89e7c0)
+---Type <return> to continue, or q <return> to quit---
+    at /home/gokce/Desktop/brain/neuron/nrn/src/nrnoc/fadvance.c:395
+#9  0x00007ffff7ba32dc in nrn_fixed_step_group (n=30000)
+    at /home/gokce/Desktop/brain/neuron/nrn/src/nrnoc/fadvance.c:382
+#10 0x00007ffff791b1c6 in ncs2nrn_integrate (tstop=1500.0000000150001)
+    at /home/gokce/Desktop/brain/neuron/nrn/src/nrniv/../nrncvode/netcvode.cpp:3655
+#11 0x00007ffff7940393 in BBS::netpar_solve (this=this@entry=0xb8d9f0, 
+    tstop=1500)
+    at /home/gokce/Desktop/brain/neuron/nrn/src/nrniv/netpar.cpp:1203
+#12 0x00007ffff7923459 in psolve (v=0xb8d9f0)
+    at /home/gokce/Desktop/brain/neuron/nrn/src/nrniv/../parallel/ocbbs.cpp:598
+#13 0x00007ffff7bb80c4 in hoc_call_ob_proc (ob=ob@entry=0xb66a40, 
+    sym=sym@entry=0xb08460, narg=1)
+    at /home/gokce/Desktop/brain/neuron/nrn/src/nrnoc/../oc/hoc_oop.c:661
+#14 0x00007ffff7bb8e10 in hoc_object_component ()
+    at /home/gokce/Desktop/brain/neuron/nrn/src/nrnoc/../oc/hoc_oop.c:1076
+#15 0x00007ffff7bb5e4c in hoc_execute (p=<optimized out>)
+    at /home/gokce/Desktop/brain/neuron/nrn/src/nrnoc/../oc/code.c:2567
+#16 0x00007ffff7bb6eeb in hoc_call ()
+    at /home/gokce/Desktop/brain/neuron/nrn/src/nrnoc/../oc/code.c:1311
+#17 0x00007ffff7bb5e4c in hoc_execute (p=p@entry=0x7fffffffdcb0)
+    at /home/gokce/Desktop/brain/neuron/nrn/src/nrnoc/../oc/code.c:2567
+#18 0x00007ffff7bb7fd9 in hoc_call_ob_proc (ob=ob@entry=0xb8d970, 
+---Type <return> to continue, or q <return> to quit---
+    sym=sym@entry=0xb89620, narg=<optimized out>)
+    at /home/gokce/Desktop/brain/neuron/nrn/src/nrnoc/../oc/hoc_oop.c:702
+#19 0x00007ffff7bb8e10 in hoc_object_component ()
+    at /home/gokce/Desktop/brain/neuron/nrn/src/nrnoc/../oc/hoc_oop.c:1076
+#20 0x00007ffff7bb5e4c in hoc_execute (p=<optimized out>)
+    at /home/gokce/Desktop/brain/neuron/nrn/src/nrnoc/../oc/code.c:2567
+#21 0x00007ffff7bb6eeb in hoc_call ()
+    at /home/gokce/Desktop/brain/neuron/nrn/src/nrnoc/../oc/code.c:1311
+#22 0x00007ffff7bb5e4c in hoc_execute (p=<optimized out>)
+    at /home/gokce/Desktop/brain/neuron/nrn/src/nrnoc/../oc/code.c:2567
+#23 0x00007ffff74515af in hoc_run1 ()
+    at /home/gokce/Desktop/brain/neuron/nrn/src/oc/hoc.c:1247
+#24 0x00007ffff745170d in hoc_main1 (argc=<optimized out>, 
+    argv=<optimized out>, envp=<optimized out>)
+    at /home/gokce/Desktop/brain/neuron/nrn/src/oc/hoc.c:888
+#25 0x000000000040207b in ivocmain (argc=3, argv=0x7fffffffe0b8, 
+    env=0x7fffffffe0d8)
+    at /home/gokce/Desktop/brain/neuron/nrn/src/ivoc/ivocmain.cpp:727
+#26 0x00000000004019b6 in main (argc=3, argv=0x7fffffffe0b8, 
+    env=0x7fffffffe0d8)
+    at /home/gokce/Desktop/brain/neuron/nrn/src/ivoc/nrnmain.cpp:53

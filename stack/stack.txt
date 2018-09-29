@@ -1,0 +1,38 @@
+(gdb) bt
+#0  nrnmpi_spike_exchange ()
+    at /home/gokce/Desktop/brain/neuron/nrn/src/nrnmpi/mpispike.c:94
+#1  0x00007ffff793eda5 in nrn_spike_exchange ()
+    at /home/gokce/Desktop/brain/neuron/nrn/src/nrniv/netpar.cpp:554
+#2  0x00007ffff7ba42e1 in nrn_finitialize (setv=<optimized out>, 
+    v=<optimized out>)
+    at /home/gokce/Desktop/brain/neuron/nrn/src/nrnoc/fadvance.c:872
+#3  0x00007ffff7ba437a in finitialize ()
+    at /home/gokce/Desktop/brain/neuron/nrn/src/nrnoc/fadvance.c:888
+#4  0x00007ffff7bb6f44 in hoc_call ()
+    at /home/gokce/Desktop/brain/neuron/nrn/src/nrnoc/../oc/code.c:1284
+#5  0x00007ffff7bb5e4c in hoc_execute (p=<optimized out>)
+    at /home/gokce/Desktop/brain/neuron/nrn/src/nrnoc/../oc/code.c:2567
+#6  0x00007ffff7bb6eeb in hoc_call ()
+    at /home/gokce/Desktop/brain/neuron/nrn/src/nrnoc/../oc/code.c:1311
+#7  0x00007ffff7bb5e4c in hoc_execute (p=<optimized out>)
+    at /home/gokce/Desktop/brain/neuron/nrn/src/nrnoc/../oc/code.c:2567
+#8  0x00007ffff7bb6eeb in hoc_call ()
+    at /home/gokce/Desktop/brain/neuron/nrn/src/nrnoc/../oc/code.c:1311
+#9  0x00007ffff7bb5e4c in hoc_execute (p=<optimized out>)
+    at /home/gokce/Desktop/brain/neuron/nrn/src/nrnoc/../oc/code.c:2567
+#10 0x00007ffff7bb6eeb in hoc_call ()
+    at /home/gokce/Desktop/brain/neuron/nrn/src/nrnoc/../oc/code.c:1311
+---Type <return> to continue, or q <return> to quit--- 
+#11 0x00007ffff7bb5e4c in hoc_execute (p=<optimized out>)
+    at /home/gokce/Desktop/brain/neuron/nrn/src/nrnoc/../oc/code.c:2567
+#12 0x00007ffff74515af in hoc_run1 ()
+    at /home/gokce/Desktop/brain/neuron/nrn/src/oc/hoc.c:1247
+#13 0x00007ffff745170d in hoc_main1 (argc=<optimized out>, 
+    argv=<optimized out>, envp=<optimized out>)
+    at /home/gokce/Desktop/brain/neuron/nrn/src/oc/hoc.c:888
+#14 0x000000000040207b in ivocmain (argc=3, argv=0x7fffffffe0b8, 
+    env=0x7fffffffe0d8)
+    at /home/gokce/Desktop/brain/neuron/nrn/src/ivoc/ivocmain.cpp:727
+#15 0x00000000004019b6 in main (argc=3, argv=0x7fffffffe0b8, 
+    env=0x7fffffffe0d8)
+    at /home/gokce/Desktop/brain/neuron/nrn/src/ivoc/nrnmain.cpp:53

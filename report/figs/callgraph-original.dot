@@ -1,0 +1,25 @@
+digraph "callgraph" {
+  F145dd18 [label="0x0000000000003b40\n1 017 222 803"];
+  F1470438 [label="ompi_coll_tuned_sendrecv_nonze...\n1 768 739 233"];
+  F1471fe8 [label="ompi_request_default_wait_all\n1 763 971 024"];
+  F147ca78 [label="ompi_coll_tuned_allgather_intr...\n1 769 083 120"];
+  F147cf38 [label="ompi_coll_tuned_allgather_intr...\n1 769 046 009"];
+  F1566e78 [label="NetCvode::deliver_event(double...\n1 800 844 545"];
+  F15929d8 [label="NetParEvent::deliver(double, N...\n1 800 844 545"];
+  F15df358 [label="nrn_spike_exchange\n1 800 874 660"];
+  F15e7ce8 [label="nrnmpi_spike_exchange\n1 799 683 296"];
+  F1665618 [label="opal_progress\n1 717 186 491"];
+  F168b828 [label="mca_pml_ob1_progress\n234 761 753"];
+  F1958948 [label="PMPI_Allgather\n1 769 294 320"];
+  F1470438 -> F1471fe8 [weight=3,label="1 763 971 024 (5 017x)"];
+  F1471fe8 -> F1665618 [weight=3,label="1 717 186 491 (9 039 842x)"];
+  F147ca78 -> F147cf38 [weight=3,label="1 769 046 009 (960x)"];
+  F147cf38 -> F1470438 [weight=3,label="1 768 739 233 (2 880x)"];
+  F1566e78 -> F15929d8 [weight=3,label="1 800 844 545 (959x)"];
+  F15929d8 -> F15df358 [weight=3,label="1 800 844 545 (959x)"];
+  F15df358 -> F15e7ce8 [weight=3,label="1 799 683 296 (960x)"];
+  F15e7ce8 -> F1958948 [weight=3,label="1 769 294 320 (960x)"];
+  F1665618 -> F145dd18 [weight=3,label="1 017 222 803 (9 026 783x)"];
+  F1665618 -> F168b828 [weight=2,label="234 761 753 (9 029 298x)"];
+  F1958948 -> F147ca78 [weight=3,label="1 769 083 120 (960x)"];
+}

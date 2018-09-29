@@ -1,0 +1,78 @@
+\begin{thebibliography}{10}
+
+\bibitem{migliore_parallel_2006}
+M.~Migliore, C.~Cannia, W.~W. Lytton, H.~Markram, and M.~L. Hines, ``Parallel
+  network simulations with {NEURON},'' {\em Journal of Computational
+  Neuroscience}, vol.~21, pp.~119--129, Oct. 2006.
+
+\bibitem{hines_neuron_1997}
+M.~L. Hines and N.~T. Carnevale, ``The {NEURON} {Simulation} {Environment},''
+  {\em Neural Computation}, vol.~9, pp.~1179--1209, Aug. 1997.
+
+\bibitem{karypis_fast_1998}
+G.~Karypis and V.~Kumar, ``A {Fast} and {High} {Quality} {Multilevel} {Scheme}
+  for {Partitioning} {Irregular} {Graphs},'' {\em SIAM J. Sci. Comput.},
+  vol.~20, pp.~359--392, Dec. 1998.
+
+\bibitem{davison_dendrodendritic_2003}
+A.~P. Davison, J.~Feng, and D.~Brown, ``Dendrodendritic {Inhibition} and
+  {Simulated} {Odor} {Responses} in a {Detailed} {Olfactory} {Bulb} {Network}
+  {Model},'' {\em Journal of Neurophysiology}, vol.~90, pp.~1921--1935, Sept.
+  2003.
+
+\bibitem{hines_modeldb:_2004}
+M.~L. Hines, T.~Morse, M.~Migliore, N.~T. Carnevale, and G.~M. Shepherd,
+  ``{ModelDB}: {A} {Database} to {Support} {Computational} {Neuroscience},''
+  {\em Journal of Computational Neuroscience}, vol.~17, pp.~7--11, July 2004.
+
+\bibitem{brette_simulation_2007}
+R.~Brette, M.~Rudolph, T.~Carnevale, M.~Hines, D.~Beeman, J.~M. Bower,
+  M.~Diesmann, A.~Morrison, P.~H. Goodman, F.~C.~H. Jr, M.~Zirpe,
+  T.~Natschläger, D.~Pecevski, B.~Ermentrout, M.~Djurfeldt, A.~Lansner,
+  O.~Rochel, T.~Vieville, E.~Muller, A.~P. Davison, S.~E. Boustani, and
+  A.~Destexhe, ``Simulation of networks of spiking neurons: {A} review of tools
+  and strategies,'' {\em Journal of Computational Neuroscience}, vol.~23,
+  pp.~349--398, July 2007.
+
+\bibitem{hines_comparison_2011}
+M.~Hines, S.~Kumar, and F.~Schürmann, ``Comparison of neuronal spike exchange
+  methods on a {Blue} {Gene}/{P} supercomputer,'' {\em Frontiers in
+  Computational Neuroscience}, vol.~5, Nov. 2011.
+
+\bibitem{broquedis_hwloc:_2010}
+F.~Broquedis, J.~Clet-Ortega, S.~Moreaud, N.~Furmento, B.~Goglin, G.~Mercier,
+  S.~Thibault, and R.~Namyst, ``hwloc: {A} {Generic} {Framework} for {Managing}
+  {Hardware} {Affinities} in {HPC} {Applications},'' in {\em 2010 18th
+  {Euromicro} {International} {Conference} on {Parallel}, {Distributed} and
+  {Network}-{Based} {Processing} ({PDP})}, pp.~180--186, Feb. 2010.
+
+\bibitem{hines_fully_2008}
+M.~L. Hines, H.~Markram, and F.~Schürmann, ``Fully implicit parallel
+  simulation of single neurons,'' {\em Journal of Computational Neuroscience},
+  vol.~25, pp.~439--448, Dec. 2008.
+
+\bibitem{hines_translating_2008}
+M.~L. Hines and N.~T. Carnevale, ``Translating network models to parallel
+  hardware in {NEURON},'' {\em Journal of Neuroscience Methods}, vol.~169,
+  pp.~425--455, Apr. 2008.
+
+\bibitem{kumar_optimization_2010}
+S.~Kumar, P.~Heidelberger, D.~Chen, and M.~Hines, ``Optimization of
+  applications with non-blocking neighborhood collectives via multisends on the
+  {Blue} {Gene}/{P} supercomputer,'' in {\em 2010 {IEEE} {International}
+  {Symposium} on {Parallel} {Distributed} {Processing} ({IPDPS})}, pp.~1--11,
+  Apr. 2010.
+
+\bibitem{migliore_distributed_2014}
+M.~Migliore, F.~Cavarretta, M.~L. Hines, and G.~M. Shepherd, ``Distributed
+  organization of a brain microcircuit analyzed by three-dimensional modeling:
+  the olfactory bulb,'' {\em Frontiers in Computational Neuroscience}, vol.~8,
+  Apr. 2014.
+
+\bibitem{hines_neuron_2008}
+M.~L. Hines, H.~Eichner, and F.~Schürmann, ``Neuron splitting in compute-bound
+  parallel network simulations enables runtime scaling with twice as many
+  processors,'' {\em Journal of Computational Neuroscience}, vol.~25,
+  pp.~203--210, Jan. 2008.
+
+\end{thebibliography}

@@ -1,0 +1,100 @@
+
+statistics for the original
+---------------------------
+
+average number of ints : 2502.0
+average number of spks : 2106.9
+average time of ints   : 12.09926765
+average time of spks   : 0.9196987
+average total time     : 176.62232835
+
+
+statistics for the optimized
+----------------------------
+
+average number of ints : 2502.0
+average number of spks : 2106.9
+average time of ints   : 304.39188945
+average time of spks   : 162.3423612
+average total time     : 1010.4447951
+
+
+statistics for the original
+---------------------------
+
+average number of ints : 2502.0
+average number of spks : 2106.9
+average time of ints   : 11.33225425
+average time of spks   : 0.935663
+average total time     : 176.9512739
+
+
+statistics for the optimized
+----------------------------
+
+average number of ints : 2502.0
+average number of spks : 2106.9
+average time of ints   : 303.87579325
+average time of spks   : 186.5988686
+average total time     : 998.6172145
+
+
+statistics for the original
+---------------------------
+
+average number of ints : 2502.0
+average number of spks : 2106.9
+average time of ints   : 11.00659415
+average time of spks   : 0.90902115
+average total time     : 178.3030466
+
+
+statistics for the optimized
+----------------------------
+
+average number of ints : 2502.0
+average number of spks : 2106.9
+average time of ints   : 301.09379965
+average time of spks   : 169.9550594
+average total time     : 1008.9252133
+
+
+statistics for the original
+---------------------------
+
+average number of ints : 2502.0
+average number of spks : 2106.9
+average time of ints   : 11.9645506
+average time of spks   : 0.89627495
+average total time     : 178.85245675
+
+
+statistics for the optimized
+----------------------------
+
+average number of ints : 2502.0
+average number of spks : 2106.9
+average time of ints   : 303.06248405
+average time of spks   : 180.76513695
+average total time     : 996.5248922
+
+
+statistics for the original
+---------------------------
+
+average number of ints : 2502.0
+average number of spks : 2106.9
+average time of ints   : 14.4807098
+average time of spks   : 0.92634995
+average total time     : 179.2408195
+
+
+statistics for the optimized
+----------------------------
+
+average number of ints : 2502.0
+average number of spks : 2106.9
+average time of ints   : 304.78184415
+average time of spks   : 177.9063172
+average total time     : 1001.61408755
+

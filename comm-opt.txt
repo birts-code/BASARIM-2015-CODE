@@ -1,0 +1,40 @@
+(0) number of ints : 2502
+(0) number of spks : 710
+(0) time of ints   : 82.235046
+(0) time of spks   : 16.488131
+(0) total time     : 457.213853
+(1) number of ints : 2502
+(1) number of spks : 841
+(1) time of ints   : 93.323873
+(1) time of spks   : 16.814621
+(1) total time     : 457.219908
+(2) number of ints : 2502
+(2) number of spks : 764
+(2) time of ints   : 80.971632
+(2) time of spks   : 18.167263
+(2) total time     : 457.201008
+(3) number of ints : 2502
+(3) number of spks : 824
+(3) time of ints   : 81.618632
+(3) time of spks   : 17.709358
+(3) total time     : 457.207637
+(4) number of ints : 2502
+(4) number of spks : 824
+(4) time of ints   : 91.730133
+(4) time of spks   : 16.689029
+(4) total time     : 457.135008
+(5) number of ints : 2502
+(5) number of spks : 805
+(5) time of ints   : 83.945939
+(5) time of spks   : 16.690382
+(5) total time     : 457.100846
+(6) number of ints : 2502
+(6) number of spks : 750
+(6) time of ints   : 85.085315
+(6) time of spks   : 17.993080
+(6) total time     : 457.086188
+(7) number of ints : 2502
+(7) number of spks : 749
+(7) time of ints   : 85.089067
+(7) time of spks   : 16.882829
+(7) total time     : 457.103583

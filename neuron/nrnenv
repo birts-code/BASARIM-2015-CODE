@@ -1,0 +1,6 @@
+export IV=$HOME/Desktop/brain/neuron/iv
+export NRN=$HOME/Desktop/brain/neuron/nrn
+
+export CPU=x86_64
+export BLD=build
+export PATH="$IV/$CPU/bin:$NRN/$BLD/$CPU/bin:$PATH"

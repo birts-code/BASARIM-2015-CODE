@@ -1,0 +1,39 @@
+Bu dizin aşağıdaki çalışmaya ait kodları içermektedir:
+
+    Gökçehan Kara, Can Özturan, Zeki Bozkuş.
+    "Paralel NEURON Simulasyonlarında Çizge Ayırımı Kullanarak
+    Donanım Yakınlığı ile Ateşleme Değişiminin Hızlandırılması".
+    4. Ulusal Yüksek Başarımlı Hesaplama Konferansı (BAŞARIM 2015),
+    ODTÜ Ankara, 1-3 Ekim 2015.
+
+Dizinler ve dosyaların içerikleri şu şekildedir:
+
+    bench/             -- mpi haberleşmesi ile ilgili basit benchmarklar
+    comm/              -- haberleşme ölçümleri ve matrislerin görselleri
+    inputs/            -- örnek hoc programları
+    metis/             -- metis kodu, manueli ve örnekleri
+    neuron/            -- NEURON ve ilgili programların kodu
+    plot/              -- makale şekilleri ve şekillerim çizim kodları
+    prof/              -- profiler ölçümleri
+    report/            -- çalışma raporu (ingilizce)
+    SenseLab/          -- örnek girdi dosyaları
+    stack/             -- simulasyon sırasında alınan backtrace çıktıları
+    comm-opt.txt       -- örnek eniyileştirilmiş çıktı dosyası
+    comm.py            -- haberleşme çizgesini oluşturma scripti
+    comm.txt           -- örnek çıktı dosyası
+    exec-parbulbNet.sh -- parbulbNet örneğini çalıştırma scripti
+    graph.txt          -- örnek çizge dosyası
+    graph.txt.part.2   -- örnek ayırılmış çizge dosyası
+    machinefile        -- örnek makina dosyası
+    machinefile-8-2    -- örnek makina dosyası
+    mach.py            -- makina dosyası oluşturma scripti
+    run-debug.sh       -- programda hata ayıklama için kullanılan script
+    stat.py            -- haberleşme istatistiklerini oluşturma scripti
+    README             -- bu dosya
+
+Programın çalıştırılması için öncelikle kaynak kodlarının ilgili dizinlerde
+açılması gerekmektedir. Daha sonra `exec-parbulbNet.sh` scripti kullanılarak
+program çalıştırılabilir. Bu script içerisinde `comm.py`, `mach.py` ve
+`stat.py` scriptleri çalıştırılmaktadır. Kalan dosyalar çıktı olarak otomatik
+üretilmektedir. Başka bir örneği çalıştırmak için benzeri bir script
+hazırlanabilir.

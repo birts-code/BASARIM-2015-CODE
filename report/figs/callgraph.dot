@@ -1,0 +1,30 @@
+digraph "callgraph" {
+    node[shape="box"];
+
+    start [shape="none", label="..."];
+    end [shape="none", label="..."];
+
+    F1470438 [label="ompi_coll_tuned_sendrecv_nonzero_actual"];
+    F1471fe8 [label="ompi_request_default_wait_all"];
+    F147ca78 [label="ompi_coll_tuned_allgather_intra_dec_fixed"];
+    F147cf38 [label="ompi_coll_tuned_allgather_intra_bruck"];
+    F1566e78 [label="NetCvode::deliver_event(double, NrnThread*)"];
+    F15929d8 [label="NetParEvent::deliver(double, NetCvode*, NrnThread*)"];
+    F15df358 [label="nrn_spike_exchange"];
+    F15e7ce8 [label="nrnmpi_spike_exchange"];
+    F1665618 [label="opal_progress"];
+    F1958948 [label="PMPI_Allgather"];
+
+    start -> F1566e78;
+    F1665618 -> end;
+
+    F1470438 -> F1471fe8;
+    F1471fe8 -> F1665618;
+    F147ca78 -> F147cf38;
+    F147cf38 -> F1470438;
+    F1566e78 -> F15929d8;
+    F15929d8 -> F15df358;
+    F15df358 -> F15e7ce8;
+    F15e7ce8 -> F1958948;
+    F1958948 -> F147ca78;
+}
